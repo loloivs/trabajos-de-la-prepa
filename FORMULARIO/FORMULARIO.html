@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!--comienzo  del boilerplate-->
+<html lang="es"> <!--página en español-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--pongo este código para que tenga buena accesibilidad y buen visual en un móvil-->
+  <title>Formulario de solicitud de carreras "La Salle"</title>
+    <link rel="stylesheet" href="FORMULARIO.css"> <!--funcionalidad con CSS para más visualidad bonita-->
+  <!--final del boilerplate-->
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://imgs.search.brave.com/xrjjflJlibdqXqa6d5IVu5imA5GQUoYVSrymozzmTME/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zYW5k/Ym94dHJlcy5lbXBy/b3ZlLmNvbS5teC9w/bHVnaW5maWxlLnBo/cC8zOTMzL21vZF9m/b2xkZXIvY29udGVu/dC8wL0xvZ29fTEFf/U0FMTEVfQmxhbmNv/LnBuZz9mb3JjZWRv/d25sb2FkPTE" class="logo">
+    <h1>FORMULARIO DE SOLICITUD DE CARRERAS</h1>
+  <h2>Universidad La Salle - Formulario de Admisión</h2>
+  <p>Seleccione con honestidad la carrera deseada para el mismo aspirante e ingrese los datos necesarios para contactarnos con usted.</p>
+  </div>
+<div class="container">
+    <form id="formulario">
+  <label for="NOMBRE">Nombre completo del aspirante(incluyendo apellidos):</label>
+  <input type="text" id="NOMBRE" required>
+
+  <label for="EDAD">Edad del aspirante:</label>
+  <input type="number" id="EDAD" required>
+  
+  <label for="CORREO">Correo electrónico del aspirante:</label>
+  <input type="email" id="CORREO" required>
+  
+  <label for="TELEFONO">Número de teléfono del aspirante</label>
+  <input type="tel" id="TELEFONO" required>
+  
+  <select id="CARRERA">
+    <option disabled selected>Selecciona una carrera</option>
+    <option value="ING. SISTEMAS">Ingeniería en Sistemas</option>
+    <option value="DERECHO">Derecho</option>
+    <option value="MUSICA">Música</option>
+    <option value="MEDICINA">Medicina</option>
+    <option value="ING. INDUSTRIAL">Ingeniería industrial</option>
+    <option value="DISEÑO">Diseño gráfico</option>
+    <option value="TURISMO">Turismo</option>
+    <option value="GASTRONOMIA">Gastronomía</option>
+    <option value="MANTENIMIENTO COMPUTADORAS">Mantenimiento en computadoras</option>
+    <option value="COMUNICACION">Comunicación</option>
+    <option value="MECANICA">Ingeniería mecánica</option>  
+  </select>
+  <button type="submit">Enviar</button>
+</form>
+
+<script src="FORMULARIO.js"></script> <!--funcionalidad con JS para interactuar con botones y la información llegue a la database-->
+</body>
+</html>

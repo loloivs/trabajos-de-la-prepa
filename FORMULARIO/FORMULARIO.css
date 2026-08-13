@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat';
+font-weight: 600;
+letter-spacing: 1px;
+color: rgb(255, 255, 255);
+background-color: #243386;
+}
+
+form {
+  background-color: #9e3838;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 150px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
